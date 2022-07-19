@@ -7,7 +7,7 @@ body {
     overflow-x: hidden;
     color: white;
     text-shadow: 0 0 4px black;
-    background-image: url(/images/Kaiji\ Background.png);
+    background-color: black;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
