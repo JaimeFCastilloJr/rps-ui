@@ -5,7 +5,7 @@ function resetGame() {
   winners = []
   document.querySelector(".playerScore").textContent = "Score: 0";
   document.querySelector(".computerScore").textContent = "Score: 0";
-  document.querySelector(".ties").textContent = "Ties: 0";
+  document.querySelector(".ties").textContent = "First to 5 wins! Good luck! Ties: 0";
   document.querySelector(".winner").textContent = "";
   document.querySelector(".playerChoice").textContent = "";
   document.querySelector(".computerChoice").textContent = "";

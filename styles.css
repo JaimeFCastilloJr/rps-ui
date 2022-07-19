@@ -40,12 +40,10 @@ body {
   }
   .pImg:hover {
     cursor: pointer;
-    width: 110px;
-    height: 150px;
+    transform: scale(1.1);
   }
   .active {
-    width: 110px;
-    height: 150px;
+    transform: scale(1.1);
   }
   
   .winner {
@@ -66,8 +64,7 @@ body {
   }
   .reset:hover {
     cursor: pointer;
-    width: 210px;
-    height: 70px;
+    transform: scale(1.1);
   }
   .winnerDiv {
     display: flex;
@@ -83,7 +80,7 @@ body {
     justify-content: center;
     gap: 0px;
     width: 100%;
-    padding: 0px;
+    padding: px;
     color: white;
     text-shadow: 0 0 4px black;
     font-size: 15px;
