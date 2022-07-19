@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    color: white;
+    text-shadow: 0 0 4px black;
+    background-image: url(/images/Kaiji\ Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+  }
+  .choices {
+    display: flex;
+    width: 80vw;
+    justify-content: space-around;
+    margin-top: 200px;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .playerImgs,
+  .computerImgs {
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    background: black;
+    padding: 10px;
+    border: solid black 5px;
+    border-radius: 10px;
+    max-height: 130px;
+  }
+  img {
+    width: 90px;
+    height: 130px;
+  }
+  .pImg:hover {
+    cursor: pointer;
+    width: 110px;
+    height: 150px;
+  }
+  .active {
+    width: 110px;
+    height: 150px;
+  }
+  
+  .winner {
+    width: 100%;
+  }
+  .reset {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    background-color: transparent;
+    color: white;
+    text-shadow: 0 0 4px black;
+    font-size: x-large;
+    border: 3px solid white;
+    border-radius: 5px;
+  }
+  .reset:hover {
+    cursor: pointer;
+    width: 210px;
+    height: 70px;
+  }
+  .winnerDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    width: 100%;
+    padding: 0px;
+    color: white;
+    text-shadow: 0 0 4px black;
+    font-size: 15px;
+  }

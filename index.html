@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors w/ UI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="winnerDiv">
+        <h3 class="winner"></h3>
+        <button class="reset" onclick="resetGame()">Play Again?</button>
+    </div>
+    <div class="score">
+        <h4 class="ties">Ties: 0</h4>
+    </div>
+    <div class="playerSection">
+        <h4 class="playerChoice"></h4>
+        <h4 class="playerScore">Player Score: 0</h4>
+        <div class="playerImgs">
+            <img src="./images/Kaiji Janken Rock1024_1.jpg" alt="A hand representing rock" class="pImg" id="rock" width="200px" height="auto">
+            <img src="./images/Kaiji Janken Paper1024_1.jpg" alt="A hand representing paper" class="pImg" id="paper" width="200px" height="auto">
+            <img src="./images/Kaiji Janken Scissors1024_1.jpg" alt="A hand representing scissors" class="pImg" id="scissors" width="200px" height="auto">
+        </div>
+    </div>
+    <div class="computerSection">
+        <h4 class="computerChoice"></h4>
+        <h4 class="computerScore">Computer Score: 0</h4>
+        <div class="computerImgs">
+            <img src="./images/Kaiji Janken Rock1024_1.jpg" alt="A hand representing rock" class="rock" width="200px" height="auto">
+            <img src="./images/Kaiji Janken Paper1024_1.jpg" alt="A hand representing paper" class="paper" width="200px" height="auto">
+            <img src="./images/Kaiji Janken Scissors1024_1.jpg" alt="A hand representing scissors" class="scissors" width="200px" height="auto">
+        </div>
+    </div>
+    <footer class="footer">
+        <p>
+            Copyright ©
+            <script>
+                document.write(new Date().getFullYear())
+            </script>
+            JaimeFCastilloJr
+        </p>
+    </footer>
+</body>
+<script src="main.js"></script>
+</html>
